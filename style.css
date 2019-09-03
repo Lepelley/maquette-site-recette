@@ -1,0 +1,64 @@
+body {
+	width: 1000px;
+	margin: 20px auto;
+	color: #575957;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Header */
+header img{
+	text-align: center;
+	width: 1000px;
+}
+
+article {
+	padding: 10px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0;
+	font-size: 2em;
+}
+
+h2 {
+	border-bottom: 1px solid grey;
+}
+
+/* Overview */
+
+li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#liste li + li {
+	border: 1px solid #c7c7c7;
+}
+
+
+/* Ingredients */
+
+.bold {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td,th {
+	width: 250px;
+	text-align: left;
+	border-top: 1px solid grey;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.row_pair td {
+	background-color: #c7c7c7;
+}
