@@ -27,17 +27,28 @@ h2 {
 
 /* Overview */
 
-li {
+ul {
 	list-style: none;
-	display: inline;
-	padding: 10px;
-	text-align: center;
-	margin-bottom: 10px;
-	border-radius: 20px 20px 20px 20px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
 }
 
-#liste li + li {
+li {
+	list-style: none;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	width: 20%;
+	margin-bottom: 20px;
+}
+
+
+
+#liste li + li span {
 	border: 1px solid #c7c7c7;
+	padding: 10px;
+	border-radius: 20px 20px 20px 20px;
 }
 
 
